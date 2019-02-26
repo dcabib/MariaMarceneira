@@ -1,0 +1,53 @@
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+}
+
+.slick-dots li {
+    transform: scale(2);
+}
+
+@media screen and (max-width: 720px) {
+
+    html,
+    body {
+        width: 100%;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .center_wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+
+    /*******************
+            HEADER              
+    *******************/
+
+    header {
+        background: #2f2f2f !important;
+    }
+
+    header .header_logo_venue {
+        font-size: 25px;
+    }
+
+    header .header_logo_title {
+        font-size: 15px;
+    }
+
+    /************************
+            CARROUSEL        
+    ************************/
+
+    .slick-dots {
+        transform: scale(0.7);
+    }
+
+    .slick-dots li {
+        transform: scale(2);
+    }
+
+}

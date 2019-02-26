@@ -15,7 +15,7 @@ import slide_10 from '../../resources/images/Foto10.JPG';
 const Carrousel = () => {
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite:true,
         autoplay: true,
         speed: 500

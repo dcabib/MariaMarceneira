@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     padding:0;
@@ -163,7 +168,7 @@ footer .footer_copyright {
 }
                       
 .vn_item .vn_outer {
-    width: 300px;
+    width: 320px;
     border: 2px solid #828282;
     margin: auto;
     padding: 5px;

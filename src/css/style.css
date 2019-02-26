@@ -23,7 +23,7 @@
 
 
     /*******************
-            HEADER              
+            HEADER     
     *******************/
 
     header {
@@ -50,4 +50,126 @@
         transform: scale(2);
     }
 
+    /************************
+            VENUE NFO        
+    ************************/
+
+    .vn_wrapper {
+        width: 100%;
+        display: block;
+        padding: 50px 0;
+    }
+
+    .vn_item {
+        width: auto;
+        margin-top: 100px;
+    }
+
+    .vn_item .vn_outer {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .vn_item .vn_icon_square {
+        left: calc(50% - 50px);
+    }
+
+    .vn_item .vn_icon {
+        left: calc(50% - 25px);
+    }
+
+    .vn_item .vn_title {
+        font-size: 24px;
+    }
+
+    .vn_item .vn_desc {
+        font-size: 20px;
+    }
+
+    /************************
+            HIGHLIGHTS        
+    ************************/
+
+    .highlight_wrapper h2 {
+        font-size: 56px;
+        padding: 10px 0;
+    }
+
+    .highlight_wrapper .highlight_description {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .discount_wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .discount_wrapper .discount_porcentage {
+        padding: 0;
+    }
+
+    .discount_wrapper .discount_porcentage span:nth-child(1) {
+        font-size: 140px;
+    }
+
+    .discount_wrapper .discount_porcentage span:nth-child(2) {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .discount_wrapper .discount_description h3 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .discount_wrapper .discount_description p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    /*******************
+            PRICING        
+    ********************/
+
+    .pricing_section h2 {
+        font-size: 56px;
+    }
+
+    .pricing_wrapper {
+        display: block;
+    }
+
+    .pricing_wrapper .pricing_item {
+        width: auto;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /*******************
+            LOCATION        
+    ********************/
+
+
+    .location_tag div {
+        font-size: 24px;
+    }
+
+    /*******************
+            FOOTER        
+    ********************/
+
+    .footer_logo_venue {
+        font-size: 30px;
+    }
+
+    .footer_copyright {
+        font-size: 20px;
+    }
+
+    .footer_copyright a {
+        text-decoration: underline dashed;
+        color: #2f2f2f;
+    }
 }

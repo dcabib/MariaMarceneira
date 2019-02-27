@@ -7,8 +7,8 @@ const Footer = () => {
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">Maria Marceneira</div>
                 <div className="footer_copyright">
-                    Maria Marceneira 2019. Instagran
-                    <a href="www.instagram.com/mariamarceneira"> mariamarceneira</a>
+                    Maria Marceneira 2019. Instagran&nbsp;
+                    <a href="www.instagram.com/mariamarceneira">mariamarceneira</a>
                 </div>
 
             </Fade>
